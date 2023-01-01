@@ -80,9 +80,9 @@ def eval_text (count: int) -> str:
 
     if count in range(1,4):
         text = 'amazing'
-    elif count in range (4,7):
+    elif count in range (4,8):
         text = 'average'
-    elif count in range (7,11):
+    elif count in range (8,12):
         text = 'not so bad'
     else:
         text = 'bad luck. Better luck next time'
