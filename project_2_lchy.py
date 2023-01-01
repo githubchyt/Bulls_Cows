@@ -24,7 +24,7 @@ while game.upper() == 'Y':
     secreat_number = fbc.secreat_nbr()
     
     # you can show generated secrate number
-    print("Secret number is: ", secreat_number)
+    # print("Secret number is: ", secreat_number)
     
     print(SEP)
     print("I've generated a random 4 digit number for you.")
