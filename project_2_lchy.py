@@ -24,7 +24,7 @@ while game.upper() == 'Y':
     secreat_number = fbc.secreat_nbr()
     
     # you can show generated secrate number
-    # print("Secret number is: ", secreat_number)
+    print("Secret number is: ", secreat_number)
     
     print(SEP)
     print("I've generated a random 4 digit number for you.")
@@ -87,10 +87,10 @@ if len(stats) != 0:
         f"{'Evaluation':^40}|\n{'-'*90}")
    
     for key, values in stats.items():
-        count_guess, time, fbc.eval_text = values
+        count_guess, time, evaluation = values
         
         print(f"|{key:^15}|{count_guess:^15}|{time:^15}|"
-            f"{'''That's '''+ fbc.eval_text:^40}|")
+            f"{'''That's '''+ evaluation:^40}|")
 
     print('-'*90)
        
